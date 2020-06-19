@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Health Track</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Estilo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <Script>"https://connect.facebook.net/en_US/sdk.js"</Script>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    
+</head>
+
+<body>
+
+<!--INÍCIO DO CÓDIGO-->
+
+<!--INÍCIO DO CÓDIGO-->
+<img src="img/logo.png" class="mx-auto d-block" width="150" height="115">
+
+<!--Menu Hamburguer-->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Brand -->
+   <a class="navbar-brand" href="#">Alterar Complemento</a>
+  
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">        
+        <li class="nav-item">
+          <a class="nav-link" href="TelaAlterarDados.html">Alterar Dados</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="TelaDashboard.html">Dashboard</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="TelaListaPesos.html">Lista de Pesos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="TelaSuasAtividades.html">Suas Atividades</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="TelaBancoAtividades.html">Banco de Atividades</a>
+        </li>      
+      </ul>
+    </div>
+  </nav>
+
+<!--Início do formulário-->
+      <form action="/action_page.php" class="was-validated">
+
+<!--Data de Nascimento do formulário-->        
+        <br><div class="form-group">
+          <label for="date">Data de Nascimento:</label>
+            <input type="date" class="form-control" placeholder="*Digite seu Data de Nascimento" id="date" required>
+        <div class="valid-feedback">Preenchido.</div>
+          <div class="invalid-feedback" id="obrigatorio">*Campo de preenchimento obrigatório.</div>
+      </div>
+
+<!--Altura do formulário-->        
+        <div class="form-group">
+                <label for="height">Altura:</label>
+          <input type="number" class="form-control" placeholder="*Digite sua altura" id="height" required>
+            <div class="valid-feedback">Preenchido.</div>
+          <div class="invalid-feedback" id="obrigatorio">*Campo de preenchimento obrigatório.</div>
+        </div>
+
+<!--Peso Atual do formulário-->
+        <div class="form-group">
+          <label for="width">Peso Atual:</label>
+          <input type="number" class="form-control" id="width" placeholder="*Digite seu peso atual" name="width" required>
+          <div class="valid-feedback">Preenchido.</div>
+          <div class="invalid-feedback" id="obrigatorio">*Campo de preenchimento obrigatório.</div>
+        </div>
+
+<!--Peso Meta do formulário-->
+        <div class="form-group">
+            <label for="width">Peso Meta:</label>
+            <input type="number" class="form-control" id="width" placeholder="*Digite seu peso meta" name="width" required>
+            <div class="valid-feedback">Preenchido.</div>
+            <div class="invalid-feedback" id="obrigatorio">*Campo de preenchimento obrigatório.</div>
+        </div>        
+</body>
+</html>

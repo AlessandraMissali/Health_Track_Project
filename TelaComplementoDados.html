@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Health Track</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Estilo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <Script>"https://connect.facebook.net/en_US/sdk.js"</Script>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    
+</head>
+
+<body>
+
+<!--INÍCIO DO CÓDIGO-->
+
+<img src="img/logo.png" class="mx-auto d-block" width="150" height="115">
+
+<!--Titulo-->
+        <div>
+            <h4><p class="text-center">Complemente seus Dados</p></h4>
+        </div>
+
+<!--Início do formulário-->
+      <form action="/action_page.php" class="was-validated">
+
+<!--Data de Nascimento do formulário-->        
+        <div class="form-group">
+          <label for="date">Data de Nascimento:</label>
+            <input type="date" class="form-control" placeholder="*Digite seu Data de Nascimento" id="date" required>
+        <div class="valid-feedback">Preenchido.</div>
+          <div class="invalid-feedback" id="obrigatorio">*Campo de preenchimento obrigatório.</div>
+      </div>
+
+<!--Altura do formulário-->        
+        <div class="form-group">
+                <label for="height">Altura:</label>
+          <input type="number" class="form-control" placeholder="*Digite sua altura" id="height" required>
+            <div class="valid-feedback">Preenchido.</div>
+          <div class="invalid-feedback" id="obrigatorio">*Campo de preenchimento obrigatório.</div>
+        </div>
+
+<!--Peso Atual do formulário-->
+        <div class="form-group">
+          <label for="width">Peso Atual:</label>
+          <input type="number" class="form-control" id="width" placeholder="*Digite seu peso atual" name="width" required>
+          <div class="valid-feedback">Preenchido.</div>
+          <div class="invalid-feedback" id="obrigatorio">*Campo de preenchimento obrigatório.</div>
+        </div>
+
+<!--Peso Meta do formulário-->
+        <div class="form-group">
+            <label for="width">Peso Meta:</label>
+            <input type="number" class="form-control" id="width" placeholder="*Digite seu peso meta" name="width" required>
+            <div class="valid-feedback">Preenchido.</div>
+            <div class="invalid-feedback" id="obrigatorio">*Campo de preenchimento obrigatório.</div>
+        </div>
+
+<!--Botão do formulário-->
+<div>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <a href="TelaDashboard.html"><button type="button" class="btn btn-danger">Continuar</button></a>
+            </div>
+        </div>
+    </div>
+  </div>
+        
+</body>
+</html>

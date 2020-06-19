@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Health Track</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Estilo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <Script>"https://connect.facebook.net/en_US/sdk.js"</Script>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  
+    
+</head>
+
+<body>
+
+<!--INÍCIO DO CÓDIGO-->
+<img src="img/logo.png" class="mx-auto d-block" width="150" height="115">
+
+<!--Menu Hamburguer-->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+
+    <!-- Brand -->
+    <a class="navbar-brand" href="#" >Dashboard</a>
+  
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="TelaAlterarDados.html">Alterar Dados</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="TelaAlteraComplementoDados.html">Alterar Complemento dos Dados</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="TelaListaPesos.html">Lista de Pesos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="TelaSuasAtividades.html">Suas Atividades</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="TelaBancoAtividades.html">Banco de Atividades</a>
+        </li>     
+      </ul>
+    </div>
+  </nav>
+  
+ <!--Meta com avatar-->
+           
+ <div class="media border p-3">
+  <img src="img/avatar.png" alt="Avatar" class="mr-3 mt-3 rounded-circle" style="width:100px;">
+  <div class="media-body">
+    <br><h5 id="meta">Minha Meta <small><i></i></h5>
+    <h6>31/07/2020</h6>
+    <h6>50 kilos</h6>
+  </div>
+</div>
+
+
+<!--Evolução de Peso-->   
+
+  <br><h5 id="meta">Evolução de Peso</h5><br>
+
+ <!--Evolução de Peso Verde -->  
+      <table class="table table-hover">               
+        </thead>
+        <tbody>    
+              <div class="progress">
+                  <div class="progress-bar bg-success progress-bar-striped" style="width:80%">
+                  </div>
+              </div>
+                    <tr>            
+                        <td>02/05/2020</td>
+                        <td>52kgk</td>
+                    </tr>
+        </tbody>
+      </table>
+
+<!--Evolução de Peso Amarelo-->  
+      <table class="table table-hover">               
+      </thead>
+      <tbody>    
+            <div class="progress">
+                <div class="progress-bar bg-warning progress-bar-striped" style="width:50%">
+                </div>
+            </div>
+                  <tr>            
+                      <td>02/04/2020</td>
+                      <td>54kgk</td>
+                  </tr>
+      </tbody>
+    </table>
+
+<!--Evolução de Peso vermelho-->  
+    <table class="table table-hover">               
+    </thead>
+    <tbody>    
+          <div class="progress">
+              <div class="progress-bar bg-danger progress-bar-striped" style="width:30%">
+              </div>
+          </div>
+                <tr>            
+                    <td>02/03/2020</td>
+                    <td>60kgk</td>
+                </tr>
+    </tbody>
+  </table>
+      
+</body>
+</html>
